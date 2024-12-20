@@ -1,0 +1,11 @@
+/*
+**	AJ Javadi
+**	Created	12/20/2024
+**	/Users/aj/Herd/four-last-names/zzMisc/NOTES.txt
+*/
+
+
+
+
+- when wanting to test things out, switch to dev.db
+
