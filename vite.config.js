@@ -8,13 +8,4 @@ export default defineConfig({
             refresh: true,
         }),
     ],
-    css: {
-        preprocessorOptions: {
-            scss: {
-                additionalData: `
-                @import "resources/sass/_variables.scss";
-                `
-            }
-        },
-    },
 });
