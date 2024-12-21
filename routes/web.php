@@ -32,4 +32,9 @@ Route::middleware(['auth'])->prefix('admin')->group(function () {
     Route::resource('posts', AdminPostController::class)->except(['show']);
 });
 
+
+//  Botman Route
+Route::post('/botman', 'BotmanController@handle');
+Route::get('/botman', 'BotmanController@startConversation');
+
 require __DIR__ . '/auth.php';
